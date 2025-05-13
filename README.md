@@ -42,11 +42,9 @@ We tested the product management and purchase workflow module. We chose to test 
 *Expected outcome:* The user should not be able to purchase the deleted item.
 
 ## How we tested
-We used two different testing methods:
-1. [Cucumber](https://cucumber.io/), a behavior-driven testing framework.
-2. [Provengo](https://provengo.tech/), a story-based testing framework.
+[Cucumber](https://cucumber.io/), a behavior-driven testing framework.
 
 Each of the testing methods is elaborated in its own directory. 
 
 ## Results
-We conducted tests using both Cucumber and Provengo. The generated test suites covered the primary interactions of the selected user stories. The tests are documented in the corresponding directories.
+We conducted tests using Cucumber and Selenium. The generated test suites covered the primary interactions of the selected user stories. The tests are documented in the corresponding directories.

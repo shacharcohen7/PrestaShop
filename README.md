@@ -44,7 +44,5 @@ We tested the product management and purchase workflow module. We chose to test 
 ## How we tested
 [Cucumber](https://cucumber.io/), a behavior-driven testing framework.
 
-Each of the testing methods is elaborated in its own directory. 
-
 ## Results
 We conducted tests using Cucumber and Selenium. The generated test suites covered the primary interactions of the selected user stories. The tests are documented in the corresponding directories.

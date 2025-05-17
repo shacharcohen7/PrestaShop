@@ -29,17 +29,17 @@ public class BuyProductActuator {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(40));
 
         // Launch PrestaShop website
-        driver.get("http://localhost/my_shop/");
+        driver.get("http://localhost/stradivarious/");
 
         // Maximize window to ensure proper display
-        driver.manage().window().setPosition(new Point(700, 5));
+        driver.manage().window().maximize();
 
         System.out.println("Driver setup finished for - " + driver.getTitle());
     }
 
     public void goToLogin() {
         // Navigate to the login page by clicking the login link
-        driver.findElement(By.xpath("//body/main[1]/header[1]/nav[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/a[1]")).click();
+        driver.findElement(By.xpath("/html/body/main/header/nav/div/div/div[1]/div[2]/div[2]/div/a/span")).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/main/section/div/div/div/section/div/section/form/div/div[1]/label")));
     }
 

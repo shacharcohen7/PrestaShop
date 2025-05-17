@@ -35,12 +35,6 @@ We tested the product management and purchase workflow module. We chose to test 
 
 *Expected outcome:* The product purchase is successfully confirmed.
 
-*User story:* Admin deletes an item from the store and user can't buy it.
-
-*Preconditions:* An admin and a user are logged into the PrestaShop store and the user has added the item to their shopping cart.
-
-*Expected outcome:* The user should not be able to purchase the deleted item.
-
 ## How we tested
 [Cucumber](https://cucumber.io/), a behavior-driven testing framework.
 
